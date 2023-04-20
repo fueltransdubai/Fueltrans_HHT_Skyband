@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FuelTrans HHT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date &amp; time :</string>
+    <string name="currency">SAR</string>
+
+    <string name="login">LOGIN</string>
+
+</resources>

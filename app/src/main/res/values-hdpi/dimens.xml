@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="dialog_width">320dp</dimen>
+
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_5">14dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">40dp</dimen>
+    <dimen name="padding_30">20dp</dimen>
+    <dimen name="padding_35">25dp</dimen>
+    <dimen name="padding_40">60dp</dimen>
+    <dimen name="padding_45">65dp</dimen>
+    <!--<dimen name="padding_45">45dp</dimen>-->
+    <dimen name="padding_50">60dp</dimen>
+    <dimen name="padding_60">70dp</dimen>
+    <dimen name="padding_65">65dp</dimen>
+    <dimen name="padding_70">70dp</dimen>
+    <dimen name="padding_80">235dp</dimen>
+    <dimen name="padding_90">90dp</dimen>
+    <dimen name="padding_100">140dp</dimen>
+    <dimen name="padding_120">140dp</dimen>
+    <dimen name="padding_130">130dp</dimen>
+    <dimen name="padding_150">170dp</dimen>
+    <dimen name="padding_160">160dp</dimen>
+    <dimen name="padding_220">220dp</dimen>
+    <dimen name="padding_230">230dp</dimen>
+    <dimen name="padding_300">300dp</dimen>
+    <dimen name="padding_350">350dp</dimen>
+
+    <dimen name="padding_250">250dp</dimen>
+
+
+    <dimen name="fontsize_10">30sp</dimen>
+    <dimen name="fontsize_12">32sp</dimen>
+    <dimen name="fontsize_14">36sp</dimen>
+    <dimen name="fontsize_16">38sp</dimen>
+    <dimen name="fontsize_18">40sp</dimen>
+    <dimen name="fontsize_20">32sp</dimen>
+    <dimen name="fontsize_25">35sp</dimen>
+    <dimen name="fontsize_27">37sp</dimen>
+    <dimen name="fontsize_30">40sp</dimen>
+    <dimen name="fontsize_50">50sp</dimen>
+    <dimen name="drawer_width">450dp</dimen>
+
+    <dimen name="banner_width">250dp</dimen>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class = "PumpChildBinding">
+        <variable
+            name="pumpModel"
+            type="com.bct.fuelpay.view_model.PumpViewModel"/>
+    </data>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/padding_120"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/padding_10"
+    android:layout_margin="@dimen/padding_7"
+    app:cardBackgroundColor="@color/darkGrey"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1'
+            android:background="@{pumpModel.color}" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1.5'
+            android:text="@{pumpModel.title}"
+            android:textStyle="bold"
+            android:textSize="@dimen/fontsize_18"
+            android:paddingLeft="@dimen/padding_10"
+            android:gravity="left"
+            android:textColor='@color/white'
+            />
+
+       <ImageView
+           android:id="@+id/image_view"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight='4.5'
+           android:padding="@dimen/padding_10"
+           android:src="@drawable/ic_pump"
+           />
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</layout>

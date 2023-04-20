@@ -1,0 +1,16 @@
+ninja: Entering directory `D:\Android\FuelTransHHT-SkyBand\SkyBandSDK\.cxx\Debug\04f59465\x86_64'
+[1/5] Building C object CMakeFiles/ecrcore-lib.dir/jniWrapper.c.o
+D:/Android/FuelTransHHT-SkyBand/SkyBandSDK/src/main/cpp/jniWrapper.c:16:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *inRequestStr = (*env)->GetStringUTFChars(env, requestData, NULL);
+          ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Android/FuelTransHHT-SkyBand/SkyBandSDK/src/main/cpp/jniWrapper.c:18:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *inSignStr = (*env)->GetStringUTFChars(env, szSignature, NULL);
+          ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Android/FuelTransHHT-SkyBand/SkyBandSDK/src/main/cpp/jniWrapper.c:51:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *inRequestStr = (*env)->GetStringUTFChars(env, respData, NULL);
+          ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[2/5] Building C object CMakeFiles/ecrcore-lib.dir/Utilities.c.o
+[3/5] Building C object CMakeFiles/ecrcore-lib.dir/ECRSrc.c.o
+[4/5] Building C object CMakeFiles/ecrcore-lib.dir/SBCoreECR.c.o
+[5/5] Linking C shared library D:\Android\FuelTransHHT-SkyBand\SkyBandSDK\build\intermediates\cxx\Debug\04f59465\obj\x86_64\libecrcore-lib.so

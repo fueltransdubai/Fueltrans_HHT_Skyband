@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkGrey"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/padding_15"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Authorization Type"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize_20"
+        android:layout_marginTop="@dimen/padding_30"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_50"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/padding_30"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:id="@+id/btnPrice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/orange_rounded_corner"
+            android:text="PRICE"
+            android:filterTouchesWhenObscured="true"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/fontsize_20"
+            android:padding="@dimen/padding_10"
+            android:layout_marginHorizontal="@dimen/padding_10"
+            />
+        <TextView
+            android:id="@+id/btnQuantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/lightgrey_rounded_corner"
+            android:text="Quantity"
+            android:filterTouchesWhenObscured="true"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/fontsize_20"
+            android:paddingTop="@dimen/padding_10"
+            android:paddingBottom="@dimen/padding_10"
+            android:layout_marginHorizontal="@dimen/padding_10"
+            />
+        <TextView
+            android:id="@+id/btnTopUp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/lightgrey_rounded_corner"
+            android:text="TOPUP"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/fontsize_20"
+            android:padding="@dimen/padding_10"
+            android:filterTouchesWhenObscured="true"
+            android:layout_marginHorizontal="@dimen/padding_10"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Amount"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize_20"
+        android:layout_marginTop="@dimen/padding_30"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/padding_10"
+        android:paddingVertical="@dimen/padding_15"
+        android:background="@drawable/rounded_edittext"
+        android:weightSum="10"
+        >
+
+        <EditText
+            android:id="@+id/etValue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:paddingLeft="@dimen/padding_10"
+            android:hint="0.00"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize_25"
+            android:background="@null"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="USD"
+            android:gravity="center"
+            android:textSize="@dimen/fontsize_25"
+            android:textColor="@color/status_light_grey"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_70"
+        android:layout_marginTop="@dimen/padding_20"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:id="@+id/recylerview">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/btnAuthorize"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_60"
+        android:layout_marginTop="@dimen/padding_20"
+        android:layout_marginBottom="@dimen/padding_20"
+        android:background="@drawable/button_background"
+        android:text="Authorise"
+        android:filterTouchesWhenObscured="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsize_20"
+        />
+
+</LinearLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation= "vertical"
+        android:weightSum = "10"
+        android:background="@color/background"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1.5'
+            android:paddingStart="@dimen/padding_10"
+            android:orientation= "vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Customer"
+                android:drawableStart="@drawable/ic_arrow_back"
+                android:drawablePadding='@dimen/padding_5'
+                android:textSize="@dimen/fontsize_20"
+                android:paddingTop="@dimen/padding_10"
+                android:textStyle="bold"
+                android:textColor = "@color/white"
+                android:layout_gravity="bottom"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Customer"
+                android:textSize="@dimen/fontsize_16"
+                android:paddingBottom="@dimen/padding_5"
+                android:textColor = "@color/white"
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='7.0'
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='7.0'
+            android:orientation= "vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/llMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_20"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Mobile"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_50"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llName"
+                android:layout_below="@+id/llMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_20"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Name"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_50"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter Name"
+                    android:inputType="text"
+                    android:maxLength="4"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llVehicleNo"
+                android:layout_below="@+id/llName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_20"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Vehicle Number"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etVehicleNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_50"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter Vehicle Number"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCompanyName"
+                android:layout_below="@+id/llVehicleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_10"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Company"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_50"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter company name"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEmail"
+                android:layout_below="@+id/llCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_10"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Email Id"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_50"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter email"
+                    android:inputType="textPassword"
+                    android:maxLength="20"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAddress"
+                android:layout_below="@+id/llEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_10"
+                android:layout_marginBottom = "@dimen/padding_10"
+                android:orientation= "vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/padding_20"
+                    android:text="Address"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom = "@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_100"
+                    android:background="@drawable/rounded_edittext"
+                    android:paddingStart="@dimen/padding_20"
+                    android:hint="Enter address"
+                    android:inputType="textPassword"
+                    android:maxLines="2"
+                    android:maxLength="20"
+                    android:textSize="@dimen/fontsize_18"
+                    android:textColor="@color/status_light_grey"
+                    android:textColorHint="@color/status_light_grey"
+
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1.5'
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:orientation= "vertical"
+            >
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_60"
+                android:layout_marginHorizontal="@dimen/padding_15"
+                android:background="@drawable/button_background"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_18"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

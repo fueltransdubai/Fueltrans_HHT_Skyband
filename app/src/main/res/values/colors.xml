@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#2F2F39</color>
+    <color name="maroon">#6D0000</color>
+    <color name="indigo">#2A32A7</color>
+    <color name="blue">#3070CF</color>
+    <color name="green">#729B00</color>
+    <color name="yellow">#A17322</color>
+    <color name="purple">#98109C</color>
+    <color name="darkGrey">#3F3F49</color>
+    <color name="grey_editext">#4A4A59</color>
+    <color name="button_blue">#3445D3</color>
+    <color name="button_blue_light">#0B1671</color>
+    <color name="button_grey">#6D6D6D</color>
+    <color name="text_blue">#4CB7E6</color>
+    <color name="orange">#B05031</color>
+
+
+    <color name="status_red">#CA0000</color>
+    <color name="status_yellow">#EFD700</color>
+    <color name="status_green">#269814</color>
+    <color name="status_light_grey">#AFAFAF</color>
+
+    <color name="grade_orange">#CF9331</color>
+    <color name="grade_green">#2CE50E</color>
+    <color name="grade_pink">#D41085</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

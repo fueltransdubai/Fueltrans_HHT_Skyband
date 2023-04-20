@@ -1,0 +1,10 @@
+<resources>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/background</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/grey_editext</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/custom_dialog_drawable</item>
+    </style>
+</resources>

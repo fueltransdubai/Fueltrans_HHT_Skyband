@@ -1,0 +1,57 @@
+<resources>
+    <!--dimes for design 3-->
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="newsMoreTextSize">14sp</dimen>
+    <dimen name="loginCardRadius">20dp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_35">35dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_45">45dp</dimen>
+    <!--<dimen name="padding_45">45dp</dimen>-->
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_65">65dp</dimen>
+    <dimen name="padding_70">70dp</dimen>
+    <dimen name="padding_80">80dp</dimen>
+    <dimen name="padding_90">90dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+    <dimen name="padding_120">110dp</dimen>
+    <dimen name="padding_130">130dp</dimen>
+    <dimen name="padding_150">150dp</dimen>
+    <dimen name="padding_160">160dp</dimen>
+    <dimen name="padding_220">220dp</dimen>
+    <dimen name="padding_230">230dp</dimen>
+    <dimen name="padding_300">300dp</dimen>
+    <dimen name="padding_350">350dp</dimen>
+
+    <dimen name="padding_250">250dp</dimen>
+
+
+    <dimen name="fontsize_10">10sp</dimen>
+    <dimen name="fontsize_12">12sp</dimen>
+    <dimen name="fontsize_14">14sp</dimen>
+    <dimen name="fontsize_16">16sp</dimen>
+    <dimen name="fontsize_18">18sp</dimen>
+    <dimen name="fontsize_20">18sp</dimen>
+    <dimen name="fontsize_25">25sp</dimen>
+    <dimen name="fontsize_27">27sp</dimen>
+    <dimen name="fontsize_30">30sp</dimen>
+    <dimen name="fontsize_50">50sp</dimen>
+    <dimen name="drawer_width">300dp</dimen>
+
+    <dimen name="banner_width">170dp</dimen>
+
+</resources>

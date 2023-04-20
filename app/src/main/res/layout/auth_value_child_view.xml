@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class = "AuthValueBinding">
+        <variable
+            name="authValueModel"
+            type="com.bct.fuelpay.view_model.AuthValueViewModel"/>
+    </data>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="@dimen/padding_80"
+    android:layout_height="@dimen/padding_60"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:filterTouchesWhenObscured="true"
+    android:layout_margin="@dimen/padding_7"
+    app:cardBackgroundColor="@color/button_grey"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{authValueModel.title}"
+            android:textStyle="bold"
+            android:textSize="@dimen/fontsize_18"
+            android:gravity="center"
+            android:textColor='@color/white'
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</layout>

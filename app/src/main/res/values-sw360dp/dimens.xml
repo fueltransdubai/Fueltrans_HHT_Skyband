@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!--Layout Dimensions-->
+    <dimen name="dialog_width">320dp</dimen>
+
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_5">3dp</dimen>
+    <dimen name="padding_7">5dp</dimen>
+    <dimen name="padding_10">8dp</dimen>
+    <dimen name="padding_12">10dp</dimen>
+    <dimen name="padding_14">10dp</dimen>
+    <dimen name="padding_15">12dp</dimen>
+    <dimen name="padding_20">17dp</dimen>
+    <dimen name="padding_25">20dp</dimen>
+    <dimen name="padding_30">26dp</dimen>
+    <dimen name="padding_35">31dp</dimen>
+    <dimen name="padding_40">36dp</dimen>
+    <dimen name="padding_45">43dp</dimen>
+    <!--<dimen name="padding_45">45dp</dimen>-->
+    <dimen name="padding_50">45dp</dimen>
+    <dimen name="padding_60">50dp</dimen>
+    <dimen name="padding_65">61dp</dimen>
+    <dimen name="padding_70">66dp</dimen>
+    <dimen name="padding_80">75dp</dimen>
+    <dimen name="padding_90">85dp</dimen>
+    <dimen name="padding_100">94dp</dimen>
+    <dimen name="padding_120">116dp</dimen>
+    <dimen name="padding_130">110dp</dimen>
+    <dimen name="padding_150">146dp</dimen>
+    <dimen name="padding_160">156dp</dimen>
+    <dimen name="padding_220">186dp</dimen>
+    <dimen name="padding_230">194dp</dimen>
+    <dimen name="padding_300">200dp</dimen>
+    <dimen name="padding_350">350dp</dimen>
+    <dimen name="padding_250">150dp</dimen>
+    <!-- Default insets (outer padding) around controls -->
+    <!-- Default inner padding within controls -->
+    <!-- Default rounded corner for controls -->
+
+    <!-- Elevation when button is pressed -->
+    <!-- Z translation to apply when button is pressed -->
+    <!-- Default insets (outer padding) around buttons -->
+    <!-- Default inner padding within buttons -->
+
+
+    <!--FontDimensions-->
+
+
+    <dimen name="fontsize_10">8sp</dimen>
+    <dimen name="fontsize_12">10sp</dimen>
+    <dimen name="fontsize_14">12sp</dimen>
+    <dimen name="fontsize_18">16sp</dimen>
+    <dimen name="fontsize_20">18sp</dimen>
+    <dimen name="fontsize_25">21sp</dimen>
+    <dimen name="fontsize_27">24sp</dimen>
+    <dimen name="fontsize_30">30sp</dimen>
+    <dimen name="fontsize_50">46sp</dimen>
+    <dimen name="fontsize_16">14sp</dimen>
+    <dimen name="drawer_width">265dp</dimen>
+
+    <dimen name="banner_width">170dp</dimen>
+
+</resources>

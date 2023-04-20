@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation= "vertical"
+        android:weightSum = "10"
+        android:background="@color/background"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1.1'
+            android:paddingStart="@dimen/padding_10"
+            android:gravity="left|center"
+            android:weightSum="2"
+            android:orientation= "horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Cart"
+                    android:drawableStart="@drawable/ic_arrow_back"
+                    android:drawablePadding='@dimen/padding_5'
+                    android:textSize="@dimen/fontsize_18"
+                    android:paddingTop="@dimen/padding_10"
+                    android:gravity="center|left"
+                    android:textStyle="bold"
+                    android:textColor = "@color/white"
+                    android:layout_gravity="bottom"
+                    />
+
+
+                <TextView
+                    android:id="@+id/subTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Select items"
+                    android:gravity="center|left"
+                    android:textSize="@dimen/fontsize_16"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:textColor = "@color/white"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:text="+ Select Customer"
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/fontsize_16"
+                android:layout_gravity="right|center"
+                android:paddingRight="@dimen/padding_10"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recylerview"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight='1.5'
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:orientation= "vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/btnPayment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_60"
+                android:background="@drawable/button_background"
+                android:layout_marginHorizontal="@dimen/padding_15"
+                android:orientation="horizontal"
+                android:filterTouchesWhenObscured="true"
+                android:weightSum="10"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:weightSum="2"
+                    android:paddingLeft="@dimen/padding_15"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTotalItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/fontsize_16"
+                        android:textColor="@color/white"
+                        android:gravity="left|center"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/fontsize_16"
+                        android:textColor="@color/white"
+                        android:paddingBottom="@dimen/padding_1"
+                        android:gravity="left|center_horizontal"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Payment"
+                    android:gravity="center|end"
+                    android:filterTouchesWhenObscured="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize_18"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:src="@drawable/arrow_forward"
+                    android:padding="@dimen/padding_10"
+                    />
+
+            <!--<Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_60"
+                android:layout_marginHorizontal="@dimen/padding_15"
+                android:background="@drawable/button_background"
+                android:text="Payment"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_18"
+                />-->
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
